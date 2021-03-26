@@ -1,0 +1,147 @@
+/*css file for " My Page.html "*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+input[type="email"] {
+    border: 2px solid grey;
+    border-radius: 4px;
+}
+
+input[type="email"]:focus {
+    border-radius: 4px;
+    background-color: rgba(135, 206, 250, 0.384);
+} 
+
+::selection{
+    background-color: white;
+    color:blue;
+}
+
+.table_head {
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px;
+    width: 30%;
+    font:15px Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightskyblue;
+    color: black;
+}
+
+.table_data {
+    border: 1px solid black;
+    color: rgb(60, 60, 60);
+    width: 30%;
+    text-align: top;
+    font:15px Sofia, sans-serif;
+    padding: 5px;
+}
+
+.list_tab {
+    font-family: Sofia, sans-serif;
+    float: none;
+
+}
+
+.img-container {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    background-color: brown;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+#menu_a a:hover {
+    background-color: white;
+    color: brown;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#menu_a a:active {
+    background-color: teal;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#text_bar {
+    font-size: 25px;
+    font-family: Verdana;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+}
+
+#link_a a {
+    background-color: yellow;
+    font-size: 20px;
+    padding: 5px 20px 0px;
+    font-family:cursive;
+    color: rgb(168, 17, 17);
+}
+#link_a a:hover {
+    background-color:rgb(168, 17, 17);
+    font-size: 20px;
+    padding: 5px 20px 0px;
+    font-family:cursive;
+    color: yellow;
+    text-decoration: none;
+}
+
+.callout_a a:link {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+}
+
+#footer_a a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#footer_a a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#footer_a a:hover {
+    color: hotpink;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#footer_a a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
