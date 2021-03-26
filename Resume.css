@@ -1,0 +1,55 @@
+/* Resume Poject Css */
+
+body {
+    padding: 25px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+div #first_div a {
+    text-decoration: none;
+    color: black;
+}
+
+i {
+    margin: 1px;
+}
+
+div #first_div p {
+    font-size: 18px;
+}
+
+hr {
+    color: navy;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 10px;
+}
+
+h2 {
+    background-color: navy;
+    color: white;
+    border-bottom: 3px solid red;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-right: 89%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 33%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: lightblue;
+}
